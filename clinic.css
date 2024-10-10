@@ -1,11 +1,13 @@
 *{
     background-image: linear-gradient(100deg, #33860C, 80%, #f3f379);
     font-family: Ubuntu;
+    background-attachment: scroll;
 }
 @font-face{
     font-family: Ubuntu;
     src: url(Ubuntu-Regular.ttf);
 }
+/*navigation bar*/
 nav{
     background: #EAFFE2;
     display:flex;
@@ -33,6 +35,7 @@ img{
     font-size: 1.5em;
     background: #EAFFE2;
 }
+/*sidebar*/
 aside{
     display:flex;
     flex-direction: column;
@@ -76,4 +79,29 @@ section{
 #lightgreen{
     background: #4ECA15;
 }
-
+/*article*/
+article{
+    display: flex;
+    margin-top: 8em;
+    width: 68%;
+    flex-direction: column;
+    background: #00000000;
+}
+article > p{
+    background: #00000000;
+    width: auto;
+    height: auto;
+    box-sizing: border-box;
+    font-weight: 500;
+    font-size: 4em;
+    text-wrap:stable;
+    text-align-last: right;
+    padding: 0.5em;
+}
+.headline-one{
+    color:#EAFFE2;
+}
+.headline-two{
+    color:#33860C;
+    background: #EAFFE2;
+}
