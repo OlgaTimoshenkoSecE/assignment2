@@ -11,30 +11,69 @@ nav{
     display:flex;
     position: fixed;
     width: 98%;
-    height: 6.5em;
+    height: 6em;
     top: 1em;
     box-shadow: 0px 16px 16px -8px rgba(12, 12, 13, 0.2), 0px 4px 4px -4px rgba(12, 12, 13, 0.2);
     border-radius: 20px;
     justify-content: space-evenly;
+    align-items: center;
 }
 img{
     position: sticky;
     width: 87px;
     height: 87px;
-    left: 60px;
-    top: 25px;
     background: #EAFFE2;
 }
-/* Certificates & rewards */
-p{
+.navbar{
     position: sticky;
     width: auto;
-    height: 36px;
-    top: 51px;
+    height: 1.5em;
     font-style: normal;
     font-weight: 400;
     font-size: 1.5em;
-    line-height: 2em;
     background: #EAFFE2;
+}
+aside{
+    display:flex;
+    flex-direction: column;
+    position: fixed;
+    left: 65%;
+    width: 25em;
+    height: 51em;
+    top: 8em;
+    bottom: 8em;
+    background: #00000000;
+}
+.sidebar{
+    position: sticky;
+    width: 20em;
+    height: 5em;
+    background: #215508;
+    border-radius: 25px;
+    color:#EAFFE2;
+    font-size: 1.6em;
+    text-align: center;
+    margin: 1em;
+    box-sizing: border-box;
+    padding: 2em 0;
+}
+#green{
+    background: #33860C;
+}
+#lightgreen{
+    background: #4ECA15;
+}
+section{
+    display: block flex;
+    position: sticky;
+    width: 25em;
+    height: 10em;
+    margin-top:1em;
+    margin-bottom:1em;
+    background: #EAFFE2;
+    border-radius: 40px;
+    box-shadow: 0px 8px 12px 6px rgba(0, 0, 0, 0.15), 0px 4px 4px rgba(0, 0, 0, 0.3);
+    justify-content: space-evenly;
+    align-items: center;
 }
 
