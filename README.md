@@ -1,5 +1,5 @@
 # assignment2
- 1st part: Design
+1st part: Design
      I created an intended layout for the landing page in figma
 2nd part: Coding
     a.
