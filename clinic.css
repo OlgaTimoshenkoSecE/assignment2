@@ -1,5 +1,5 @@
-*{
-    background-image: linear-gradient(100deg, #33860C, 80%, #f3f379);
+body{
+    background-image: linear-gradient(100deg, #33860C, 50%, #f3f379);
     font-family: Ubuntu;
     background-attachment: scroll;
 }
@@ -45,7 +45,6 @@ aside{
     height: 51em;
     top: 8em;
     bottom: 8em;
-    background: #00000000;
 }
 section{
     display: block flex;
@@ -80,19 +79,17 @@ section{
     background: #4ECA15;
 }
 /*article*/
-article{
+.article-one{
     display: flex;
     margin-top: 8em;
     width: 68%;
     flex-direction: column;
-    background: #00000000;
 }
 article > p{
-    background: #00000000;
     width: auto;
     height: auto;
     box-sizing: border-box;
-    font-weight: 500;
+    font-weight: 700;
     font-size: 4em;
     text-wrap:stable;
     text-align-last: right;
@@ -105,3 +102,41 @@ article > p{
     color:#33860C;
     background: #EAFFE2;
 }
+
+.article-two{
+    display:grid;
+    grid: 0.5em 0.5em;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    margin-top: 2em;
+    width: 68%;
+    height: 50em;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.ellipse{
+    box-sizing: border-box;
+    width: 20em;
+    height: 20em;
+    border-radius: 50%;
+    background: #EAFFE2;
+    box-shadow: 0px 8px 12px 6px rgba(0, 0, 0, 0.15), 0px 4px 4px rgba(0, 0, 0, 0.3);
+    color:#02542D;
+    text-align: center;
+    text-wrap: wrap;
+    display: inline-block;
+    font-weight: 900;
+}
+#major{
+    border: 2em solid #02542D;
+    padding-top: 7em;
+}
+#second, #third, #fourth{
+    border: 0.7em solid #02542D;
+    padding-top: 8em;
+}
+
+
+
+
+
