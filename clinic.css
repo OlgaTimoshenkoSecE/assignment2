@@ -37,12 +37,25 @@ aside{
     display:flex;
     flex-direction: column;
     position: fixed;
-    left: 65%;
+    left: 70%;
     width: 25em;
     height: 51em;
     top: 8em;
     bottom: 8em;
     background: #00000000;
+}
+section{
+    display: block flex;
+    position: sticky;
+    width: 25em;
+    height: 10em;
+    margin-top:1.5em;
+    margin-bottom:1.5em;
+    background: #EAFFE2;
+    border-radius: 40px;
+    box-shadow: 0px 8px 12px 6px rgba(0, 0, 0, 0.15), 0px 4px 4px rgba(0, 0, 0, 0.3);
+    justify-content: space-evenly;
+    align-items: center;
 }
 .sidebar{
     position: sticky;
@@ -62,18 +75,5 @@ aside{
 }
 #lightgreen{
     background: #4ECA15;
-}
-section{
-    display: block flex;
-    position: sticky;
-    width: 25em;
-    height: 10em;
-    margin-top:1em;
-    margin-bottom:1em;
-    background: #EAFFE2;
-    border-radius: 40px;
-    box-shadow: 0px 8px 12px 6px rgba(0, 0, 0, 0.15), 0px 4px 4px rgba(0, 0, 0, 0.3);
-    justify-content: space-evenly;
-    align-items: center;
 }
 
