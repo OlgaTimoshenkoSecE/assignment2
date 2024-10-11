@@ -175,6 +175,7 @@ span{
         background: #EAFFE2;
         display:flex;
         position: sticky;
+        z-index: 1;
         width: 98%;
         height: 6em;
         top: 1em;
